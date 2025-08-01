@@ -3,3 +3,14 @@ index 2 is modified
     git add index2.txt
     git commit -m "modified successfully"
     git push origin main
+
+for delete
+    -> if we delete any file in local memory , it only delete on local memory only.
+    ->it doesn't delete the file in gitHub repositories
+    ->to delete file in gitHub use same method 
+
+    git status
+    git add index3          // add in used to transper the file to 'Sharing Area'
+    git commit -m "index3 file deleted"
+    git push origin main
+
